@@ -1,11 +1,12 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
         REGION: "us-east-1",
         BUCKET: "comics-or-image-app-upload"
     },
     apiGateway: {
         REGION: "us-east-2",
-        URL: "https://im59m8y6v4.execute-api.us-east-2.amazonaws.com/prod/"
+        URL: "https://im59m8y6v4.execute-api.us-east-2.amazonaws.com/prod"
     },
     cognito: {
         REGION: "us-east-2",
